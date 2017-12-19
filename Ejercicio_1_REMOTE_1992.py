@@ -20,7 +20,7 @@ def suma_cuadrados(n):
 # La función máximo de una lista:
 
 def máximo(l):
-    max_val= -float("inf")
+    max_val=-float("inf")
     for x in l:
         if x>max_val:
             max_val=x
