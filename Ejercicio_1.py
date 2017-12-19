@@ -8,13 +8,13 @@
 def suma(l):
     acum=0 
     for x in l:
-        acum+=x
+        acum+=x**2
     return acum
 
 # La función suma de cuadrados de una lista por comprensión:
 
 def suma_cuadrados(n):
-    return sum([i**2 for i in n if i%2==0])
+    return sum([i**2 for i in n if i%3==0])
 
 
 # La función máximo de una lista:
@@ -29,8 +29,8 @@ def máximo(l):
 
 # La función multiplicación de un escalar por una matriz:
 
-def prod_map(x,l)
+def prod_map(x,l):
     res=[]
     for n in l:
-        res.append(x*n)
+        res.append((x**3)*n)
     return res
